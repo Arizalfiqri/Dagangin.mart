@@ -1,60 +1,45 @@
-# CodeIgniter 4 Framework
+# 🛒 Dagangin Mart 2
 
-## What is CodeIgniter?
+**Dagangin Mart 2** adalah aplikasi e-commerce sederhana berbasis web yang dikembangkan menggunakan PHP (kemungkinan framework CodeIgniter). Sistem ini memungkinkan pengguna untuk menjelajah produk, memfilter berdasarkan kategori, dan melihat detail produk.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## 🚀 Fitur Utama
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+- 🔍 Pencarian dan filter produk berdasarkan kategori dan urutan
+- 🗂️ Manajemen kategori produk
+- 🖼️ Preview produk dan detail
+- ✅ Checkout sederhana
+- 👨‍💼 Halaman admin dan user terpisah
+- 📦 Integrasi tampilan halaman dinamis
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+## 🧱 Teknologi yang Digunakan
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+- PHP
+- CodeIgniter4
+- JavaScript
+- HTML + CSS
+- Visual Studio Code
 
-## Important Change with index.php
+## 📂 Struktur Folder
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+## 📸 Preview Tampilan
 
-**Please** read the user guide for a better explanation of how CI4 works!
+Berikut adalah beberapa tangkapan layar dari antarmuka pengguna:
 
-## Repository Management
+### 🔹 Halaman Beranda
+![Preview 1](uploads/preview/Preview1.png)
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+### 🔹 Halaman Produk
+![Preview 2](uploads/preview/Preview2.png)
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+### 🔹 Halaman Detail Produk
+![Preview 3](uploads/preview/Preview3.png)
 
-## Contributing
+## ⚙️ Cara Menjalankan
 
-We welcome contributions from the community.
+1. Clone repositori ini:
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+   ```bash
+   git clone https://github.com/username/dagangin-mart2.git
 
-## Server Requirements
 
-PHP version 8.1 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
