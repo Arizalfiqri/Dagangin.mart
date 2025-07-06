@@ -27,13 +27,13 @@
 Berikut adalah beberapa tangkapan layar dari antarmuka pengguna:
 
 ### 🔹 Halaman Beranda
-![Preview 1](uploads/preview/Preview1.png)
+![Preview 1](public/preview/Preview1.png)
 
 ### 🔹 Halaman Produk
-![Preview 2](uploads/preview/Preview2.png)
+![Preview 2](public/preview/Preview2.png)
 
 ### 🔹 Halaman Detail Produk
-![Preview 3](uploads/preview/Preview3.png)
+![Preview 3](public/preview/Preview3.png)
 
 ## ⚙️ Cara Menjalankan
 
